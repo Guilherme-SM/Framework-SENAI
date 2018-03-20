@@ -1,2 +1,3 @@
 # Framework-SENAI
-Repoistório Especial para o SENAI
+
+Trabalho simples involvendo a Framework Vue em JavaScript.
