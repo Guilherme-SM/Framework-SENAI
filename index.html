@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Olá Mundo - Powered by Vue JS</title>
+	<script src="js/Vue.js"></script>
+</head>
+<body>
+	<div id="helloworld">
+		<button v-on:click="say('Olá Mundo')">Diga Olá ao Mundo</button>
+	</div>
+	<script>
+		new Vue({
+		  el: '#helloworld',
+		  methods: {
+		    say: function (message) {
+		      alert(message)
+		    }
+		  }
+		})
+	</script>
+</body>
+</html>
